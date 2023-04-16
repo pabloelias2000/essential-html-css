@@ -4,6 +4,13 @@
   --gray20: #424242;
   --gray10: #616161;
   --headline1: 'Roboto';
+
+}
+
+h5 {
+
+  color: black
+
 }
 
 html {
@@ -14,6 +21,7 @@ body {
   margin: 0;
   color: var(--gray40);
   font-family: var(--headline1);
+  color: gray;
 }
 
 .wrapper {
@@ -22,36 +30,39 @@ body {
 }
 
 .hero {
-  background-image: linear-gradient(to top, #7a2cbf9d, transparent), url(../img/fondohero.png);
+  background-image: linear-gradient(to top, #7a2cbf9d, transparent), url(../img/hero.jpg);
   /* background-image: linear-gradient(to top, #7a2cbf9d, transparent), url(../img/webdeveloper.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
-  block-size: 50px;
+  block-size: 150px;
 }
 
 h1 {
   font-size: 40px;
   margin-block-start: 20px;
   margin-block-end: 16px;
-  font-weight: normal;
+  font-weight:normal;
 }
 
 /* h1 + p {
-  margin-block-end: 64px;
+  margin-block-end: 70px;
 } */
 
 hr {
   margin-block-start: 64px;
   margin-block-end: 64px;
   border-color: rgba(97, 97, 97, 0.2);
+  
 }
 
 h2 {
   font-size: 2em;
-  margin-block-start: 64px;
-  margin-block-end: 40px;
+  margin-block-start: 70px;
+  margin-block-end: 50px;
   font-weight: normal;
+  background-position-y: center;
+  
 }
 
 h3 {
@@ -65,7 +76,7 @@ h3 {
 header {
   margin-block-start: 20px;
   font-size: 14px;
-  color: var(--gray10);
+  color:#7a2cbf9d;
 }
 
 /* .header {} */
@@ -75,16 +86,16 @@ header {
 }
 
 header a {
-  color: var(--gray10);
+  color: var(--blue);
   text-decoration: none;
 }
 
 header a:hover {
-  color: var(--gray30);
+  color: var(--blue);
 }
 
 header li {
-  margin-block-end: 16px;
+  margin-block-end: 20px;
 }
 
 nav details summary {
@@ -95,6 +106,7 @@ nav details summary {
 .section-content {
   margin-block-start: 164px;
   position: relative;
+ 
 }
 
 .section-content:first-of-type {
@@ -143,17 +155,13 @@ nav details summary {
 }
 
 pre {
-  background-color: #FEC62E;
-  padding-block-start: 40px;
-  padding-block-end: 40px;
-  padding-inline-start: 40px;
-  font-family: var(--headline1);
-  line-height: 24px;
-  border: 8px solid #5551FF;
-  border-radius: 8px;
-  box-shadow: -10px 10px 0 0 #ABAAF6;
-  margin-block-end: 30px;
-  overflow: auto;
+
+  background-image: linear-gradient(to top, #7a2cbf9d, transparent), url(../img/estructura\ de\ html.png);
+
+  background-position: center;
+  background-size: 60%;
+  block-size: 500px;
+  
 }
 
 blockquote {
